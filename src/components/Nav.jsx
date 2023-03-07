@@ -31,8 +31,8 @@ function Nav() {
             <h2 className='mobile:text-sm'>GAMEBUZZ</h2>
         </motion.div>
         <form action='/'>
-            <input className='text-[1rem] w-1/4 p-1 my-4 mobile:w-4/5 mobile:p-0.75 mobile:text-[0.5rem]' type='text' value={textInput} onChange={inputHandler}/>
-            <button className='text-[1rem] p-1 mobile:p-0.75 mobile:text-[0.5rem]' type='submit' onClick={submitSearchHandler}>Search</button>
+            <input className='text-[1rem] w-1/4 p-1 my-4 mobile:w-2/3 mobile:p-0.5 mobile:text-[0.75rem]' type='text' value={textInput} onChange={inputHandler}/>
+            <button className='text-[1rem] p-1 mobile:p-0.5 mobile:text-[0.75rem]' type='submit' onClick={submitSearchHandler}>Search</button>
         </form>
     </motion.div>
   );
