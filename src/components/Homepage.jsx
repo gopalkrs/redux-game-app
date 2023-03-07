@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence, AnimateSharedLayout } from 'framer-motion';
-import { useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Game from './Game';
 import GameDetails from './GameDetails';
 //Redux logic

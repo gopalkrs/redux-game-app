@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { searchGames } from '../actions/gamesAction'
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faD, faDragon } from '@fortawesome/free-solid-svg-icons'
+import { faDragon } from '@fortawesome/free-solid-svg-icons'
 //import { fadr } from '@fortawesome/fontawesome-svg-core';
 
 function Nav() {
