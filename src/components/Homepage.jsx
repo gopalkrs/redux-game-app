@@ -6,6 +6,7 @@ import GameDetails from './GameDetails';
 //Redux logic
 import { useDispatch, useSelector } from "react-redux";
 import { loadGames } from '../actions/gamesAction';
+import { fadeIn } from '../animations'
 
 function Homepage() {
 
@@ -19,7 +20,7 @@ function Homepage() {
   const { gameid } = useParams();
 
   return (
-    <motion.div className="py-0 px-8 mobile:px-4">
+    <motion.div className="py-0 px-8 mobile:px-4" variants={fadeIn} initial="hidden" animate="show">
       <AnimateSharedLayout>
         <AnimatePresence>{gameid && <GameDetails gameid={gameid} />}</AnimatePresence>
         {
